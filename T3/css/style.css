@@ -10,115 +10,111 @@ body {
     font-family: 'İnter', sans-serif;
 }
 
-#user {
+#section {
     width: 100vw;
     height: 400px;
-    margin-top: 10em;
-    background-color: rgb(99, 122, 192);
+    margin-top: 60px;
+    background-color: rgb(241, 232, 100);
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 67px;
 }
 
 .img {
+    background-image: url("../img/Rectangle\ 2.svg");
     width: 445px;
     height: 610px;
-    background-image: url("../img/Rectangle\ 2\ \(1\).svg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
-    box-shadow: 17px 17px 8px #361921;
-
+    box-shadow: 18px 18px 6px #8795AF;
 }
 
-.text {
+.main {
     display: flex;
     flex-direction: column;
     row-gap: 65px;
 }
 
-.text .text--name {}
+.main .height {}
 
-.text .text--name .user--name {
+.main .height .basliq {
     font-weight: 700;
     font-size: 49.6px;
-    color: #361921;
+    line-height: 60px;
+    color: #CE2D64;
 }
 
-.text .text--name .graphics {
+.main .height .orta {
     font-weight: 300;
     font-size: 31.4366px;
+    line-height: 38px;
     color: #000000;
-
 }
 
-.user--text {}
-
-.user--text .text1 {
+.main .son {
     font-weight: 200;
     font-size: 23.6056px;
     line-height: 29px;
     color: #000000;
 }
 
-.user--text .text2 {
+.main .son .p1 {
+    font-weight: 200;
+}
+
+.main .son .s1 {
     font-weight: 700;
 }
 
-#user2 {
+#main2 {
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin-top: 10em;
-    padding: 110px;
-    background: #361921;
+    background-color: #CE2D64;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 30px;
-    color: #fff;
-
+    color: #000;
 }
 
-.photo {
+.bas {
     display: flex;
     justify-content: space-between;
     width: 600px;
-
 }
 
-.photo .img2 {
-    width: 92px;
-    height: 122px;
-
-}
-
-.photo .img3 {
+.bas .photo {
     width: 92px;
     height: 122px;
 }
 
-.photo .txt {
+.bas .texttt {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #FFF;
+    color:#000;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.photo .txt p {}
+.bas .texttt .p {}
 
-.artikl {
+.bas .photo2 {
+    width: 92px;
+    height: 122px;
+}
 
+.metnn {
     font-style: italic;
     font-weight: 400;
     font-size: 23.6056px;
     line-height: 180.52%;
     text-align: center;
-    color: #FFF;
-
+    color: #000;
 }
