@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'İnter', sans-serif;
+}
+
+#task {
+    width: 100vw;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.img {
+    background-image: url("../photo/Rectangle\ 2.svg");
+    width: 445px;
+    height: 610px;
+    box-shadow: 20px 20px 7px #8795AF;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+
+}
+
+.text .text2 {}
+
+.text .text2 .h {
+    font-weight: 700;
+    font-size: 49.6px;
+    line-height: 60px;
+    color: #000000
+}
+
+.text .text2 .p {
+    font-weight: 300;
+    font-size: 31.4366px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.text .text3 {
+
+}
+
+
+.text .text3 .p1 {
+    font-weight: 200;
+    font-size: 23.6056px;
+    line-height: 29px;
+    color: #000000
+}
+
+
+.text .text3 .s1 {
+    font-weight: 600;
+}
+
+#task2 {
+    width: 1440px;
+    height: 679px;
+    margin-top: 10em;
+    padding: 100px;
+    background: #8795AF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+
+}
+
+.as {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+}
+
+.as .img2 {
+    width: 92px;
+    height: 122px;
+}
+
+.as .txtt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.as .txtt p {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.as .img3 {width: 92px;
+height: 122px;}
+
+.metn {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 23.6056px;
+    line-height: 180.52%;
+    text-align: center;
+    color: #000;
+}
