@@ -33,7 +33,7 @@ body {
         height: 414px;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        // align-items: center;
         gap: 30px;
 
         .user {
@@ -41,8 +41,8 @@ body {
             height: 296px;
             display: flex;
             flex-direction: column;
-            justify-content: start;
-            gap: 20px;
+            justify-content: end;
+            gap: 30px;
 
             .fixed {
                 width: 94px;
