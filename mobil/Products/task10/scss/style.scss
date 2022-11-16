@@ -27,35 +27,48 @@ main {
         flex-direction: column;
 
 
-        &--text {
+        .nav {
             width: 100%;
-            text-align: center;
-            line-height: 30px;
-            padding: 20px 10px;
+            display: flex;
             justify-content: space-between;
+            padding: 20px 10px 15px 10px;
+            line-height: 30px;
 
+            &--text {
+                display: flex;
+                gap: 15px;
+                h5 {
+                    font-size: 23px;
+                    font-weight: 600;
 
-            h5 {
-                font-size: 23px;
-                font-weight: 600;
-
-            }
-
-            p {
-                font-size: 18px;
-                color: rgb(169, 20, 20);
-            }
-            .list {
-                padding-top: 20px;
-
-                span {
-                    border: 1px solid #007eff;
-                    border-radius: 20px;
-                    padding: 6px;
-                    margin: 0px 5px;
                 }
 
+                .list {
+
+                    span {
+                        color: darkcyan;
+                        margin: 0px 5px;
+                    }
+
+                    .blue {
+                        color: royalblue;
+                    }
+
+                }
+
+
             }
+
+            .kursor{
+                .LR{
+                    border: 1px solid darkgray;
+                    border-radius: 20px;
+                    padding: 7px;
+                    margin: 0px 5px;
+                }
+            
+            }
+
 
         }
 
@@ -83,7 +96,7 @@ main {
                     font-size: 20px;
                     line-height: 30px;
                     text-decoration: none;
-                    color: rgba(165, 99, 181, 0.815);
+                    color: darkgray;
                 }
 
                 .price {
@@ -94,13 +107,13 @@ main {
                     line-height: 40px;
 
                     h3 {
-                        font-size: 17px;
+                        font-size: 16px;
                         font-weight: 600;
                         color: #8080808f;
                     }
 
                     h4 {
-                        font-size: 17px;
+                        font-size: 16px;
                         font-weight: 700;
                         color: #189739;
                     }
@@ -110,16 +123,16 @@ main {
                     display: flex;
                     margin-top: 10px;
                     justify-content: center;
-        
+
                     .blue {
-        
+
                         width: 15px;
                         height: 15px;
                         background-color: blue;
                         border-radius: 10px;
                         margin: 8px 2px;
                     }
-        
+
                     .green {
                         width: 15px;
                         height: 15px;
@@ -127,7 +140,7 @@ main {
                         border-radius: 10px;
                         margin: 8px 2px;
                     }
-        
+
                     .orange {
                         width: 15px;
                         height: 15px;
@@ -135,16 +148,16 @@ main {
                         border-radius: 10px;
                         margin: 8px 2px;
                     }
-        
+
                     .black {
-        
+
                         width: 15px;
                         height: 15px;
                         background-color: black;
                         border-radius: 10px;
                         margin: 8px 2px;
                     }
-        
+
                 }
 
 
@@ -167,6 +180,27 @@ main {
         .cart--img {
             width: 100% !important;
         }
+
+        .nav {
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+
+            .nav--text {
+                display: flex;
+                flex-direction: column;
+                h5 {
+                    font-size: 26px;
+                }
+            }
+
+            .list {
+
+                span {
+                    margin: 0px !important;
+                }
+            }
+        }
     }
 
 
@@ -175,16 +209,7 @@ main {
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .cart {
-        flex-direction: column;
-        align-items: center;
-
-        .cart--img {
-            width: 100% !important;
-        }
-    }
-}
+@media only screen and (min-width: 600px) {}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -202,10 +227,7 @@ main {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
